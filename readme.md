@@ -9,33 +9,71 @@ A comprehensive system for detecting fraudulent healthcare insurance claims usin
 - Tirtha Sonawane (Roll No. 61)
 - Akansha Tingase (Roll No. 64)
 
-**Guide:** Prof. Atul Chaudhari
+# Fraudulent Healthcare Claims Detection (Ensemble ML)
 
-## 🎯 Objectives
-1. Handle imbalanced healthcare data effectively using SMOTENC
-2. Build and validate ensemble learning models (Random Forest, XGBoost, Logistic Regression)
-3. Deploy a user-friendly fraud detection dashboard
-4. Accurately detect fraudulent healthcare claims
-5. Reduce financial losses in healthcare insurance sector
+![Python](https://img.shields.io/badge/python-3.9+-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Jaisonar/fraudulent-healthcare-claims-detection-ensemble-ml)
+![Last Commit](https://img.shields.io/github/last-commit/Jaisonar/fraudulent-healthcare-claims-detection-ensemble-ml)
 
-## 🛠️ Technologies Used
-- **Programming Language:** Python 3.8+
-- **ML Libraries:** scikit-learn, XGBoost, imbalanced-learn
-- **Data Processing:** pandas, NumPy
-- **Visualization:** Plotly, Matplotlib, Seaborn
-- **Dashboard:** Streamlit
-- **Version Control:** Git/GitHub
+An end‑to‑end machine learning system for detecting fraudulent healthcare insurance claims using **ensemble models** and addressing **class imbalance** with techniques like SMOTENC.  
+This repository includes data preprocessing, model training & evaluation, and an interactive dashboard for real-time analysis.
 
-## 📊 Dataset
-We use the Kaggle Healthcare Provider Fraud Detection dataset which includes:
-- Train.csv - Training data with fraud labels
-- Beneficiary.csv - Patient demographic information
-- Inpatient.csv - Inpatient claim details
-- Outpatient.csv - Outpatient claim details
+## 🚀 Project Overview
 
-## 🚀 Installation & Setup
+Healthcare fraud detection is a critical application of machine learning due to the increasing volume of fraudulent claims and their financial impact. This project uses ensemble machine learning models to identify potentially fraudulent claims with high accuracy.
 
-### 1. Clone the Repository
+🔍 **Highlights:**
+- Handles imbalanced datasets using SMOTENC oversampling
+- Trains and compares multiple ensemble models
+- Provides performance evaluation and visual insights
+- Includes a Streamlit dashboard for easy interaction
+
+## 📌 Table of Contents
+
+1. [Features](#-features)  
+2. [Tech Stack](#-tech-stack)  
+3. [Dataset](#-dataset)  
+4. [Installation](#-installation)  
+5. [Usage](#-usage)  
+6. [Model Training & Evaluation](#-model-training--evaluation)  
+7. [Dashboard](#-dashboard)  
+8. [Results](#-results)  
+9. [License](#-license)  
+10. [Contact](#-contact)
+
+## ⭐ Features
+
+- 📊 Data preprocessing pipeline
+- 🤖 Ensemble ML models: Random Forest, XGBoost, LightGBM
+- 🛠️ Imbalanced data handling with SMOTENC
+- 📈 Model evaluation and performance metrics
+- 📍 Streamlit dashboard for real-time prediction
+
+## 🧰 Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Language | Python |
+| ML Libraries | scikit-learn, XGBoost, LightGBM, imbalanced-learn |
+| Visualization | Matplotlib, Seaborn, Plotly |
+| Dashboard | Streamlit |
+| Version Control | Git / GitHub |
+
+## 📂 Dataset
+
+The dataset used is from the **Kaggle Healthcare Provider Fraud Detection** competition and includes:
+
+- `Train.csv` – Training data with labels  
+- `Beneficiary.csv` – Patient demographics  
+- `Inpatient.csv` – Inpatient claims  
+- `Outpatient.csv` – Outpatient claims
+
+*(Ensure you include the raw data or instructions to download if testing locally.)*
+
+## 🧩 Installation
+
+1. Clone the repository  
 ```bash
-git clone https://github.com/your-username/healthcare-fraud-detection.git
-cd healthcare-fraud-detection
+git clone https://github.com/Jaisonar/fraudulent-healthcare-claims-detection-ensemble-ml.git
+cd fraudulent-healthcare-claims-detection-ensemble-ml
