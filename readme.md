@@ -38,9 +38,10 @@ Healthcare fraud detection is a critical application of machine learning due to 
 5. [Usage](#-usage)  
 6. [Model Training & Evaluation](#-model-training--evaluation)  
 7. [Dashboard](#-dashboard)  
-8. [Results](#-results)  
-9. [License](#-license)  
-10. [Contact](#-contact)
+8. [Project Screenshots](#-project-screenshots)  
+9. [Results](#-results)  
+10. [License](#-license)  
+11. [Contact](#-contact)
 
 ## ⭐ Features
 
