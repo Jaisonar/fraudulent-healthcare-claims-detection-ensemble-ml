@@ -74,7 +74,58 @@ The dataset used is from the **Kaggle Healthcare Provider Fraud Detection** comp
 
 ## 🧩 Installation
 
-1. Clone the repository  
+## step 1. Clone the repository  
 ```bash
 git clone https://github.com/Jaisonar/fraudulent-healthcare-claims-detection-ensemble-ml.git
 cd fraudulent-healthcare-claims-detection-ensemble-ml
+```
+## step 2. Create & activate a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate     # Windows
+```
+## step 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+## Usage 
+Run the preprocessing and training pipeline
+```bash
+python run_pipeline.py
+```
+Run the simple prediction script
+```bash
+python run_simple.py
+```
+## 📊 Model Training & Evaluation
+
+The training pipeline performs:
+
+Data cleaning & preprocessing
+
+SMOTENC sampling for class imbalance
+
+Training multiple ensemble models
+
+Performance evaluation with metrics such as accuracy, recall, precision
+
+Results are saved in:
+
+model_summary.csv
+
+model_results.json
+
+## 📈 Dashboard
+
+Run the Streamlit dashboard:
+```bash
+streamlit run src/app.py
+```
+This visual dashboard offers:
+
+Interactive fraud prediction
+
+Model performance visualizations
+
+Feature importance insights
