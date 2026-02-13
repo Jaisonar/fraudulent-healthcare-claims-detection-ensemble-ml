@@ -103,18 +103,13 @@ python run_simple.py
 The training pipeline performs:
 
 Data cleaning & preprocessing
-
 SMOTENC sampling for class imbalance
-
 Training multiple ensemble models
-
 Performance evaluation with metrics such as accuracy, recall, precision
-
 Results are saved in:
+1. model_summary.csv
 
-model_summary.csv
-
-model_results.json
+2. model_results.json
 
 ## 📈 Dashboard
 
@@ -124,8 +119,6 @@ streamlit run src/app.py
 ```
 This visual dashboard offers:
 
-Interactive fraud prediction
-
-Model performance visualizations
-
-Feature importance insights
+1. Interactive fraud prediction
+2. Model performance visualizations
+3.Feature importance insights
